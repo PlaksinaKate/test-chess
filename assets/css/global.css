@@ -1,0 +1,10 @@
+* {
+  background-color: var(--white);
+}
+
+.wr {
+	max-width: var(--page_wr);
+	margin: 0 auto;
+	padding: 0 var(--wr_pad);
+	position: relative;
+}

@@ -1,0 +1,30 @@
+/* fonts */
+:root {
+  --ff: "Merriweather";
+  --ff2: "Golos Text";
+
+  --fs: 20;
+  --lh: 1.2;
+}
+
+/* colors */
+:root {
+  --white: #fff;
+  --black: #313131;
+  --red:   #F54932;
+  --blue:  #3057A2;
+}
+
+/* grid */
+:root {
+  --wr_pad:    20px;                  
+  --page_wr:   calc(1222px + (var(--wr_pad)*2));
+}
+
+/* animation */
+:root {
+  --as: 0.45s; 
+  --ae: ease-out;  
+
+  --a: var(--as) var(--ae);
+}
