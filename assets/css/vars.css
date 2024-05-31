@@ -10,9 +10,11 @@
 /* colors */
 :root {
   --white: #fff;
-  --black: #313131;
+  --black: #1F1F1F;
+  --gray:  #313131;
   --red:   #F54932;
   --blue:  #3057A2;
+  --yellow:#FBCE51;
 }
 
 /* grid */

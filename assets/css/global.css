@@ -1,5 +1,6 @@
 * {
   background-color: var(--white);
+  color: var(--gray);
 }
 
 .wr {
@@ -8,3 +9,47 @@
 	padding: 0 var(--wr_pad);
 	position: relative;
 }
+
+.button,
+button {
+  background-color: var(--black);
+  color: var(--white);
+  max-width: max-content;
+  min-width: 263px;
+
+  padding: 20px 49px;
+
+  border-radius: 66px;
+  border: none;
+
+  font-family: var(--ff2);
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: color, background-color var(--a);
+}
+
+.button:hover,
+button:hover {
+  background-color: var(--yellow);
+  color: var(--black);
+}
+
+.button.stoke,
+button.stoke {
+  background-color: transparent;
+  color: var(--black);
+
+  -webkit-box-shadow:inset 0px 0px 0px 2px var(--black);
+  -moz-box-shadow:inset 0px 0px 0px 2px var(--black);
+  box-shadow:inset 0px 0px 0px 2px var(--black);
+}
+
+.button.stoke:hover,
+button.stoke:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
