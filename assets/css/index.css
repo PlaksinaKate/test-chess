@@ -5,3 +5,5 @@
 @import url('grid.css');
 
 @import url('global.css');
+
+@import url('./includes/index.css');

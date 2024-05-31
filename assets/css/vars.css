@@ -21,7 +21,7 @@
 /* grid */
 :root {
   --wr_pad:    20px;                  
-  --page_wr:   calc(1222px + (var(--wr_pad)*2));
+  --page_wr:   calc(1180px + (var(--wr_pad)*2));
 }
 
 /* animation */
