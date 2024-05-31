@@ -9,12 +9,13 @@
 
 /* colors */
 :root {
-  --white: #fff;
-  --black: #1F1F1F;
-  --gray:  #313131;
-  --red:   #F54932;
-  --blue:  #3057A2;
-  --yellow:#FBCE51;
+  --white:       #fff;
+  --black:       #1F1F1F;
+  --gray:        #313131;
+  --light-gray:  #D6D6D6;
+  --red:         #F54932;
+  --blue:        #3057A2;
+  --yellow:      #FBCE51;
 }
 
 /* grid */

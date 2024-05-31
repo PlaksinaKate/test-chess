@@ -1,4 +1,4 @@
-* {
+body {
   background-color: var(--white);
   color: var(--gray);
 }
@@ -37,6 +37,12 @@ button:hover {
   color: var(--black);
 }
 
+.button:disabled,
+button:disabled {
+  cursor: not-allowed;
+  background-color: var(--light-gray);
+}
+
 .button.stoke,
 button.stoke {
   background-color: transparent;
@@ -51,5 +57,27 @@ button.stoke {
 button.stoke:hover {
   background-color: var(--black);
   color: var(--white);
+}
+
+.button.icon,
+button.icon {
+  padding: 13px 16px 13px 19px;
+  min-width: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button.min,
+button.min {
+  background-color: transparent;
+  color: var(--blue);
+  padding: 12px;
+  border-radius: 62px;
+  min-width: unset;
+
+  -webkit-box-shadow:inset 0px 0px 0px 2px var(--blue);
+  -moz-box-shadow:inset 0px 0px 0px 2px var(--blue);
+  box-shadow:inset 0px 0px 0px 2px var(--blue);
 }
 
